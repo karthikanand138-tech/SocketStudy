@@ -55,9 +55,9 @@ Socket programming finds applications in various domains, including web developm
 
 Program: 
 
+1. Server Program (server.py)
 ~~~
 
-1. Server Program (server.py)
 import socket
 
 # Create socket
@@ -88,7 +88,11 @@ conn.send(message.encode())
 conn.close()
 server_socket.close()
 
+~~~
+
 2. Client Program (client.py)
+
+~~~
 import socket
 
 # Create socket
